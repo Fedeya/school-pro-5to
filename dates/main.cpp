@@ -9,7 +9,7 @@ int main() {
     cout << "Ingresa el dia: ";
     cin >> day;
     
-    if (day > 31 || day < 0) {
+    if (day > 31 || day < 1) {
         cout << "Dia invalido" << endl;
         return 0;
     }
